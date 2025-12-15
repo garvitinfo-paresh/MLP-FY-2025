@@ -1,0 +1,37 @@
+1) C Program to Calculate Area of Circle    
+	areaofcircle = pi*r*r
+
+2) C Program to Calculate Area of Triangle	
+
+3) Program to Take in the Marks of 5 Subjects and Display the Grade
+
+4) Program to Read Two Numbers and Print Their Quotient and Remainder
+
+5) Program to Check Whether a Number is Positive or Negative
+	
+5) C Program to convert days to years,month,weeks and days
+
+6) enter two value find smallest
+
+7) enter one value find its possitive or negative
+
+8) enter one value and find its devisible by 5 or not
+
+9) enter one value and find its devisible by 5 and 3 or not
+
+10) enter two value and find its multiplication is divisible by 3 and 7 or not
+
+11) enter two value and find its multiplication is divisible by its addition or not
+
+12) enter a,b,c,d find largest among them
+
+13) Enter product no. & rate then fild bill as shown below.
+product 1 float 
+rate & qty
+
+rate  qty 	amt		dis5%	 billamt 	gst18	 NetBill
+ 50	  200	10000	500		 9500		  ?			?
+
+14) convert case , if user enter lower case char then convert it into upper case & implement visa - versa?
+
+15) Calculate compound interest.
