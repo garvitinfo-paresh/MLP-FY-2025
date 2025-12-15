@@ -43,11 +43,34 @@ int main()
 
 
 
-    printf("\n %d %d %d ", a++,++a,a);  
-    // 97   99     99
+    // printf("\n %d %d %d ", a++,++a,a);  
+    // // 97   99     99
 
 
+    // for(exp1;exp2;exp3)
+    // {
+    //     // iterative statemets
+    // }
+    // exp1 : init         start     i=1        enter in loop only once     
+    // exp2 : condition    stop      i<=10      befor enter     
+    // exp2 : inc/dec      step      i++        befor exit     
 
+    // int i;
+    // for(i=1;i<=10;i++)
+    // {
+    //     printf("\t%d",i);
+    // }
+    // char i;
+    // for(i='z';i>='a';i+=2)
+    // {
+    //     printf("\t%c",i);
+    // }
+
+    // int i,j;
+    // for(i=1,j=10;i<=10;i++,j--)
+    // {
+    //         printf("\n%d - %d" ,i,j);
+    // }
 
 
 
