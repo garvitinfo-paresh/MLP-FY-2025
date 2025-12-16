@@ -7,8 +7,6 @@
 
 4) Program to Read Two Numbers and Print Their Quotient and Remainder
 
-5) Program to Check Whether a Number is Positive or Negative
-	
 5) C Program to convert days to years,month,weeks and days
 
 6) enter two value find smallest

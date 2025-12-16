@@ -28,7 +28,7 @@ int main()
     // 
 
 
-    int a=97;
+    // int a=97;
     // printf("\n1. : %d",--a);        //    
     // printf("\n2. : %d",--a);        //
     // printf("\n3. : %d",a++);        //    
@@ -72,15 +72,175 @@ int main()
     //         printf("\n%d - %d" ,i,j);
     // }
 
+    // int i,j;
+    // for(i=1;i<=5;i++) //row
+    // {       
+    //     for(j=1;j<=5;j++) // col
+    //     {
+    //         printf(" *");
+    //     }
+    //     printf("\n");
+    // }
+
+
+// i,j
+// i  i<=5      j   j<=5                        j++     i++
+// 1  1<=5  T   1   1<=5    T       print       2
+             // X   2<=5    T       print       3   
+             // X   3<=5    T       print       4
+             // X   4<=5    T       print       5
+             // X   5<=5    T       print       6
+             // X   6<=5    F      ------X              2
+
+// 2  2<=5  T   1   1<=5    T       print       2
+             // X   2<=5    T       print       3   
+             // X   3<=5    T       print       4
+             // X   4<=5    T       print       5
+             // X   5<=5    T       print       6
+             // X   6<=5    F      ------X              3
+
+// 3  2<=5  T   1   1<=5    T       print       2
+             // X   2<=5    T       print       3   
+             // X   3<=5    T       print       4
+             // X   4<=5    T       print       5
+             // X   5<=5    T       print       6
+             // X   6<=5    F      ------X              4
+
+// 4  2<=5  T   1   1<=5    T       print       2
+             // X   2<=5    T       print       3   
+             // X   3<=5    T       print       4
+             // X   4<=5    T       print       5
+             // X   5<=5    T       print       6
+             // X   6<=5    F      ------X              5
+
+// 5  2<=5  T   1   1<=5    T       print       2
+             // X   2<=5    T       print       3   
+             // X   3<=5    T       print       4
+             // X   4<=5    T       print       5
+             // X   5<=5    T       print       6
+             // X   6<=5    F      ------X              6
+
+// 6  6<=5  F  ------X
 
 
 
 
+// * * * * *
 
 
 
+// * * * * *
+// * * * * *
+// * * * * *
+// * * * * *
+// * * * * *
 
 
 
+    // int i,j;
+    // for(i=5;i>=1;i--) //row
+    // {       
+    //     for(j=1;j<=i;j++) // col
+    //     {
+    //         printf(" *");
+    //     }
+    //     printf("\n");
+    // }
+
+// *
+// * * 
+// * * * 
+// * * * * 
+// * * * * *
+
+
+// 11  12  13  14  15
+
+// 21  22  23  24  25
+
+// 31  32  33  34  35
+
+    // int i,j;
+    // for(i=1;i<=5;i++) //row
+    // {       
+    //     for(j=5;j>=i;j--) // col
+    //     {
+    //         printf(" *");
+    //     }
+    //     printf("\n");
+    // }
+    
+    // int i,j,k,sp=10;
+    // for(i=1;i<=5;i++) //row
+    // {       
+    //     for(k=1;k<=sp;k++) // col    
+    //     {
+    //         printf(" ");
+    //     }
+    //     for(j=1;j<i*2;j++) // col
+    //     {
+    //         printf("*");
+    //     }
+    //     sp--;
+    //     printf("\n");
+    // }
+    
+//           *
+//          **
+//         ***
+//        ****
+//       *****
+
+//           _*
+//          _*_*
+//         _*_*_*
+//        _*_*_*_*
+//       _*_*_*_*_*
+    
+    // int i,j;
+    // for(i=1;i<=5;i++) //row
+    // {       
+    //     for(j=1;j<i*2;j++) // col
+    //     {
+    //         printf("*");
+    //     }
+    //     printf("\n");
+    // }
+
+
+    int i,j,k,sp=10;
+  for(i=1;i<=4;i++) //row
+    {       
+        for(k=1;k<=sp;k++) // col    
+        {
+            printf(" ");
+        }
+        for(j=1;j<i*2;j++) // col
+        {
+            printf("*");
+        }
+        sp--;
+        printf("\n");
+    }
+    // sp++;
+    for(i=5;i>=1;i--) //row
+    {       
+        for(k=1;k<=sp;k++) // col    
+        {
+            printf(" ");
+        }
+        for(j=1;j<i*2;j++) // col
+        {
+            printf("*");
+        }
+        sp++;
+        printf("\n");
+    }
+
+//       *********
+//        *******
+//         *****
+//          ***
+//           *
     return 0;
 }
