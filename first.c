@@ -208,39 +208,59 @@ int main()
     // }
 
 
-    int i,j,k,sp=10;
-  for(i=1;i<=4;i++) //row
-    {       
-        for(k=1;k<=sp;k++) // col    
-        {
-            printf(" ");
-        }
-        for(j=1;j<i*2;j++) // col
-        {
-            printf("*");
-        }
-        sp--;
-        printf("\n");
-    }
-    // sp++;
-    for(i=5;i>=1;i--) //row
-    {       
-        for(k=1;k<=sp;k++) // col    
-        {
-            printf(" ");
-        }
-        for(j=1;j<i*2;j++) // col
-        {
-            printf("*");
-        }
-        sp++;
-        printf("\n");
-    }
+//     int i,j,k,sp=10;
+//   for(i=1;i<=4;i++) //row
+//     {       
+//         for(k=1;k<=sp;k++) // col    
+//         {
+//             printf(" ");
+//         }
+//         for(j=1;j<i*2;j++) // col
+//         {
+//             printf("*");
+//         }
+//         sp--;
+//         printf("\n");
+//     }
+//     // sp++;
+//     for(i=5;i>=1;i--) //row
+//     {       
+//         for(k=1;k<=sp;k++) // col    
+//         {
+//             printf(" ");
+//         }
+//         for(j=1;j<i*2;j++) // col
+//         {
+//             printf("*");
+//         }
+//         sp++;
+//         printf("\n");
+//     }
 
 //       *********
 //        *******
 //         *****
 //          ***
 //           *
+
+    // for(int i=0;i<=10;i++)
+    // {
+    //     printf("\t%d",i);
+    // }
+    // ------------------------
+    // i=1;
+    // while(i<=10)
+    // {
+    //     printf("\t%d",i);
+    //     i++;
+    // }
+    // --------
+    // i=1;
+    // do
+    // {
+    //     printf("\t%d",i);
+    //     i++;
+    // }while(i<=10);
+
     return 0;
 }
