@@ -264,5 +264,42 @@ int main()
 
 
     
+    // Array - collection of data which has a same D.T.
+
+    // int a=10;  
+
+    // printf("\n a : %d",sizeof(a));
+    // printf("\n %d",sizeof(char));
+    // printf("\n %d",sizeof(float));
+    // printf("\n %d",sizeof());
+    // printf("\n a : %d",a);
+    // printf("\n a : %u",&a);
+    // int arr[10]={11,22,33,44,55}; //dec
+    // printf("\n %d",sizeof(arr));
+    // printf("\n arr : %u",&arr);
+    // for (int i = 0; i <10; i++)
+    // {
+    //     printf("\n%d -  %u",arr[i],&arr[i]);
+    // }
+    
+    // int arr1[10]={11,22,33}; //dec
+
+    int arr1[5];
+    int i;
+    for (int i = 0; i < 5; i++)
+    {
+        printf("\n Enter arr1[ %d ] : ",i+1);
+        scanf("%d",&arr1[i]);
+    }
+    for (int i = 0; i < 5; i++)
+    {
+        printf("\n arr1[ %d ] : %d",i+1,arr1[i]);
+    }
+    
+
+
+    
+
+    
     return 0;
 }
