@@ -284,21 +284,70 @@ int main()
     
     // int arr1[10]={11,22,33}; //dec
 
-    int arr1[5];
-    int i;
-    for (int i = 0; i < 5; i++)
-    {
-        printf("\n Enter arr1[ %d ] : ",i+1);
-        scanf("%d",&arr1[i]);
-    }
-    for (int i = 0; i < 5; i++)
-    {
-        printf("\n arr1[ %d ] : %d",i+1,arr1[i]);
-    }
+    // int arr1[5];
+    // int i;
+    // for (int i = 0; i < 5; i++)
+    // {
+    //     printf("\n Enter arr1[ %d ] : ",i+1);
+    //     scanf("%d",&arr1[i]);
+    // }
+    // for (int i = 0; i < 5; i++)
+    // {
+    //     printf("\n arr1[ %d ] : %d",i+1,arr1[i]);
+    // }
     
+    //30-12-2025
+
+    // int a1=10;
+    // int *a2;
+    // a2=&a1;
+    // printf("\n Address of a1 : %u",&a1);
+    // printf("\n Value of a1 :  %d",a1);
+
+    // printf("\n\n Address of a2 : %u",&a2);
+    // printf("\n Value of a2 address of a1:  %u",a2);
+    // printf("\n Value of a1 using a2:  %d",*a2);
+
+    // int arr1[5] ={11,22,33,44,55};
+    // int i,*ptr;
+    // ptr=arr1;
+
+    // printf("\nsizeof(arr1) : %d",sizeof(arr1));
+    // printf("\nsizeof(ptr) : %d",sizeof(ptr));
+
+    // printf("\n %u",&arr1);
+    // printf("\n %u",ptr);
+  
+    // for (int i = 0; i < 5; i++)
+    // {
+    //     printf("\n Enter arr1[ %d ] : ",i+1);
+    //     scanf("%d",&arr1[i]);
+    // }
+    // for (int i = 0; i < 5; i++)
+    // {
+    //     printf("\n %d -  %d",arr1[i],*(ptr+i));
+    // }    
+
+    // int arr[5][5];
+    // int i,j;    
+    // for ( i = 0; i < 3; i++)
+    // {
+    //     for ( j = 0; j < 3; j++)
+    //     {
+    //         printf("%u",&a[i][j])
+    //     }
+    // }
+    
+/*
+1   2   3
+4   5   6   
+7   8   9
 
 
-    
+
+*/
+
+
 
     
     return 0;
